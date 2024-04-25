@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "name": "mylambda-test",
+  "name": "mylambda",
   "func_name": "handler.lambda_handler",
   "resource_type": "lambda",
   "iam_role_name": "mylambda-role",
