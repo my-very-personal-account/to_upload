@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "3.0",
   "name": "hello_world-test",
   "func_name": "handler.lambda_handler",
   "resource_type": "lambda",
@@ -11,8 +11,6 @@
   "dependencies": [],
   "event_sources": [],
   "env_variables": {},
-  "publish_version": true,
-  "alias": "${lambdas_alias_name}",
   "url_config": {
       "auth_type": "NONE"
    },
