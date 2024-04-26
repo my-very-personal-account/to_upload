@@ -10,6 +10,7 @@ class Second(AbstractLambda):
         pass
         
     def handle_request(self, event, context):
+        print(event)
         path = event.get('rawPath')
         if path == '/hello':
             return {
