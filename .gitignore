@@ -1,0 +1,4 @@
+.syndicate
+logs/
+*/.syndicate
+*/.syndicate-config-dev
