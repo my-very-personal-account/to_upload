@@ -1,6 +1,6 @@
 {
-  "version": "2.0",
-  "name": "second",
+  "version": "1.0",
+  "name": "hello_world-test",
   "func_name": "handler.lambda_handler",
   "resource_type": "lambda",
   "iam_role_name": "second-role",
