@@ -1,6 +1,6 @@
 {
   "version": "3.0",
-  "name": "hello_world",
+  "name": "hello_world-test",
   "func_name": "handler.lambda_handler",
   "resource_type": "lambda",
   "iam_role_name": "second-role",
@@ -11,8 +11,7 @@
   "dependencies": [],
   "event_sources": [],
   "env_variables": {},
-  "publish_version": true,
-  "alias": "${lambdas_alias_name}",
+  "publish_version": false,
   "url_config": {
       "auth_type": "NONE"
    },
