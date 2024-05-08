@@ -17,8 +17,9 @@ class Lambda3(AbstractLambda):
         resp = {
            "statusCode": 200,
            "message": "Hello from Lambda"
-       }
-        return json.dumps(resp)
+        }
+        # return json.dumps(resp, ensure_ascii=False)
+        return resp
     
 
 HANDLER = Lambda3()
